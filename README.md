@@ -18,7 +18,7 @@
 1. Клонируйте репозиторий:
 
 ```bash
-https://github.com/xknowen/FastAPI_test_taskgit clone https://gitlab.skillbox.ru/aleksandr_turshiev/forkitech_test_task.git
+git clone https://github.com/xknowen/FastAPI_test_taskgit.git
 cd forkitech_test_task
 ```
 
@@ -69,7 +69,7 @@ docker-compose exec web pytest
 │
 ├── tests/
 |   ├── test_api.py
-│   └── test_db.py   
+│   └── test_db.py
 │
 ├── Dockerfile
 ├── docker-compose.yml
